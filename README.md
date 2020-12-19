@@ -9,6 +9,6 @@ Run the following commands to install dependencies and start the application:
 
 ```
 bundle install
-bundle exec ruby application.rb
+rackup
 ```
 
