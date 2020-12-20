@@ -1,4 +1,6 @@
-export function get_cookie(cname) {
+export { get_cookie, set_cookie }
+
+function get_cookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
@@ -14,7 +16,7 @@ export function get_cookie(cname) {
   return "";
 }
 
-export function set_cookie(cname, cvalue, exdays) {
+function set_cookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   var expires = "expires="+ d.toUTCString();
