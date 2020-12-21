@@ -10,12 +10,12 @@ let theme_index = 0;
 
 
 function setup() {
-  theme_index = get_cookie("theme") == "" ? 0 : parseInt(get_cookie("theme"))
-  set_theme(theme_index)
+  set_theme(get_cookie("theme") == "" ? 0 : parseInt(get_cookie("theme")))
 } setup();
 
 
 function set_theme(index) {
+  theme_index = index
   theme_tag.setAttribute('href', themes[theme_index].href);
   theme_icon.innerHTML = themes[theme_index].icon;
   set_cookie("theme", theme_index, 365)
