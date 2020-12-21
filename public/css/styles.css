@@ -1,0 +1,14 @@
+button {
+  border: none;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.theme-buttons {
+  position: absolute;
+  right: 15px;
+}
