@@ -1,10 +1,11 @@
 import {get_cookie, set_cookie} from './cookies.js';
 
 let themes = [
-  '/css/dark.css',
-  '/css/light.css',
+  { href: '/css/dark.css', icon: 'dark_mode' },
+  { href: '/css/light.css', icon: 'light_mode' }
 ];
 let theme_tag = document.getElementById('theme');
+let theme_icon = document.getElementById('theme_icon');
 let theme_index = 0;
 
 
@@ -15,7 +16,8 @@ function setup() {
 
 
 function set_theme(index) {
-  theme_tag.setAttribute('href', themes[theme_index]);
+  theme_tag.setAttribute('href', themes[theme_index].href);
+  theme_icon.innerHTML = themes[theme_index].icon;
   set_cookie("theme", theme_index, 365)
 }
 
