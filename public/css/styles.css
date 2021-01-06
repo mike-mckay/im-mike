@@ -21,8 +21,19 @@ button {
   caret-color: transparent;
 }
 
+.center {
+  display: inline-block;
+}
+
 .name {
   font-size: 48px;
+}
+
+.email {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
   text-decoration: none;
   border-bottom: 1px solid;
   border-bottom-color: rgba(15, 122, 252, 0.2);
