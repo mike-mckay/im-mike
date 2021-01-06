@@ -4,6 +4,12 @@ html, body {
    overflow: hidden;
    font-family: 'Roboto', sans-serif;
 }
+body {
+  height: calc(100% - 100px);
+  width: calc(100% - 100px);
+  margin: auto;
+  padding:50px
+}
 
 button {
   border: none;
@@ -24,12 +30,4 @@ button {
   position: absolute;
   right: 70px;
   top: 50px;
-}
-
-.card {
-  height: calc(100% - 50px);
-  width: calc(100% - 100px);
-  border-radius: 2px;
-  box-shadow: 3px 3px 3px #000000;
-  margin: auto;
 }
