@@ -1,8 +1,12 @@
 body {
-  background-color: rgb(108, 108, 161);
-  color: rgb(24, 23, 23);
+  background-color:#d05ce3;
 }
 
 button {
-  background-color: rgb(127, 127, 245);
+  background-color: #6a0080;
+  color: white;
+}
+
+a { 
+  color: black;
 }

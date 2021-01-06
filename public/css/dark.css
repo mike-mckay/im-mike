@@ -1,8 +1,13 @@
 body {
-  background-color: rgb(43, 43, 65);
-  color: rgb(202, 202, 202);
+  background-color: #6a0080;
+  color: #ffffff;
 }
 
 button {
-  background-color: rgb(50, 50, 131);
+  background-color: #38006b;
+  color: white;
+}
+
+a { 
+  color: white;
 }
