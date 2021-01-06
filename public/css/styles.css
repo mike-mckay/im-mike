@@ -6,13 +6,17 @@ html, body {
 
 button {
   border: none;
-  padding: 10px 12px;
+  padding: 20px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
   border-radius: 3px;
   outline: none;
+  font-size: 40px;
   caret-color: transparent;
+}
+
+.material-icons.md-48 { 
+  font-size: 48px;
 }
 
 .theme-button {
