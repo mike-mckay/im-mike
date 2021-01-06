@@ -19,6 +19,7 @@ button {
   border-radius: 3px;
   outline: none;
   caret-color: transparent;
+  cursor: pointer;
 }
 
 .center {
