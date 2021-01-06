@@ -25,6 +25,15 @@ button {
   display: inline-block;
 }
 
+.me {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 2%;
+  max-width: 500px;
+  z-index: -1;
+}
+
 .name {
   font-size: 48px;
 }
