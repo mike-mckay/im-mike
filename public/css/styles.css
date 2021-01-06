@@ -4,11 +4,11 @@ html, body {
    overflow: hidden;
    font-family: 'Roboto', sans-serif;
 }
+
 body {
   height: calc(100% - 100px);
   width: calc(100% - 100px);
-  margin: auto;
-  padding:50px
+  padding:30px
 }
 
 button {
@@ -18,8 +18,14 @@ button {
   text-decoration: none;
   border-radius: 3px;
   outline: none;
-  font-size: 40px;
   caret-color: transparent;
+}
+
+.name {
+  font-size: 48px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(15, 122, 252, 0.2);
 }
 
 .material-icons.md-48 { 
@@ -28,6 +34,6 @@ button {
 
 .theme-button {
   position: absolute;
-  right: 70px;
-  top: 50px;
+  right: 30px;
+  top: 30px;
 }
