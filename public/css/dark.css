@@ -1,6 +1,7 @@
 body {
   background-color: #6a0080;
   color: #ffffff;
+  -webkit-text-stroke: .5px  #6a0080;
 }
 
 button {
