@@ -1,7 +1,6 @@
 html, body {
    height: 100%;
    margin: 0;
-   overflow: hidden;
    font-family: 'Roboto', sans-serif;
 }
 
@@ -71,7 +70,6 @@ button {
   padding: 50px;
   font-size: 1.3vw;
   width: 45vw;
-  overflow-x: auto;
 }
 
 .social {
@@ -85,3 +83,23 @@ button {
 .social:hover {
   color: rgb(110, 110, 110);
 }
+
+ /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 
