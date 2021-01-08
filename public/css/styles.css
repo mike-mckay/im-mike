@@ -57,11 +57,11 @@ button {
 }
 
 .material-icons.md-48 { 
-  font-size: 48px;
+  font-size: 5vw;
 }
 
 .theme-button {
-  position: absolute;
+  position: fixed;
   right: 30px;
   top: 30px;
 }
@@ -102,4 +102,27 @@ button {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-} 
+}
+
+
+/* Minimum aspect ratio */
+@media (max-aspect-ratio: 4/3) {
+  .center {
+    height:250px
+  }
+  .name {
+    font-size: 50px;
+  }
+  .email {
+    font-size: 34px;
+  }
+  .social {
+    font-size: 22px;
+  }
+  .about-me {
+    height: 100%;
+    font-size: 45px;
+    width:100%
+  }
+  .
+}
