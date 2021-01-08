@@ -25,26 +25,29 @@ button {
 .center {
   display: inline-block;
   text-align: center;
+  margin-top: 50px;
+  width: 45vw;
 }
 
 .me {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  border-radius: 0px 0px 0px 20px;
-  max-width: 500px;
+  width: 35%;
+  height: auto;
+  top: 50px;
+  right: 10%;
+  border-radius: 30% 100px 30% 100px;
   z-index: -1;
 }
 
 .name {
-  font-size: 48px;
+  font-size: 5vw;
 }
 
 .email {
   display: inline-block;
   width: 100%;
   text-align: center;
-  font-size: 30px;
+  font-size: 2vw;
   text-decoration: none;
   border-bottom: none;
   border-bottom-color: rgba(15, 122, 252, 0.2);
@@ -66,14 +69,13 @@ button {
 
 .about-me {
   padding: 50px;
-  font-size: 28px;
-  max-width: 780px;
-  min-width: 780px;
+  font-size: 1.3vw;
+  width: 45vw;
   overflow-x: auto;
 }
 
 .social {
-  font-size: 22px;
+  font-size: 1.4vw;
   padding: 2px;
   text-decoration: none;
   border-bottom: none;
